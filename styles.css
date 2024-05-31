@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+@font-face {
+    font-family: "Poppins", "Roboto", "Oswald", "Lato";
+    src: url();
+}
+
+body {
+    background-color: #333;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Header styles */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav ul {
+    padding-left: 80px;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 60px;
+    margin-top: 10px;
+}
+
+.nav li a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Span styles */
+span {
+    font-size: 30px;
+    font-weight: 600;
+    color: #00aaff;
+}
+
+/* Search bar styles */
+.conteneur-recherche {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    margin-top: 4px;
+}
+
+.conteneur-recherche input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+.conteneur-recherche button {
+    padding: 10px 20px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #00aaff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.conteneur-recherche button:hover {
+    background-color: #0088cc;
+}
+
+/* Login container styles */
+.login-container {
+    background-color: #000;
+    padding: 20px;
+    padding-left: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.login-container h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00aaff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0088cc;
+}
+
+/* Title styles */
+.title {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.title h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.title p {
+    max-width: 60%;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
